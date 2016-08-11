@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace Xamarin_App
 {
-    [Activity(Label = "IntroActivity")]
+    [Activity(Label = "Intro",Theme ="@style/Theme.Custom")]
     public class IntroActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -20,6 +20,13 @@ namespace Xamarin_App
             base.OnCreate(savedInstanceState);
 
             // Create your application here
+            SetContentView(Resource.Layout.intro);
+            Button loginButton = FindViewById<Button>(Resource.Id.button1);
+            loginButton.Click += (object sender, EventArgs e) =>
+            {
+                var intent = new Intent(this, typeof(LoginActivity));
+                StartActivity(intent);
+            };
         }
     }
 }

@@ -64,10 +64,13 @@ namespace Xamarin_App
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int ic_splach = 2130837504;
+			public const int ic_profile = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int Icon = 2130837505;
+			public const int ic_splach = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int Icon = 2130837506;
 			
 			static Drawable()
 			{
@@ -82,11 +85,17 @@ namespace Xamarin_App
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f070003
+			public const int button1 = 2131165187;
+			
 			// aapt resource value: 0x7f070000
 			public const int imageView1 = 2131165184;
 			
 			// aapt resource value: 0x7f070001
 			public const int textView1 = 2131165185;
+			
+			// aapt resource value: 0x7f070002
+			public const int textView2 = 2131165186;
 			
 			static Id()
 			{
