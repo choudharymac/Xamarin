@@ -64,13 +64,25 @@ namespace Xamarin_App
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int ic_profile = 2130837504;
+			public const int back = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int ic_splach = 2130837505;
+			public const int edittext_style = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int Icon = 2130837506;
+			public const int ic_email = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int ic_lock = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int ic_profile = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int ic_splach = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int Icon = 2130837510;
 			
 			static Drawable()
 			{
@@ -87,6 +99,15 @@ namespace Xamarin_App
 			
 			// aapt resource value: 0x7f070003
 			public const int button1 = 2131165187;
+			
+			// aapt resource value: 0x7f070006
+			public const int button2 = 2131165190;
+			
+			// aapt resource value: 0x7f070004
+			public const int editText1 = 2131165188;
+			
+			// aapt resource value: 0x7f070005
+			public const int editText2 = 2131165189;
 			
 			// aapt resource value: 0x7f070000
 			public const int imageView1 = 2131165184;
@@ -114,7 +135,10 @@ namespace Xamarin_App
 			public const int intro = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
+			public const int login = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int Main = 2130903042;
 			
 			static Layout()
 			{

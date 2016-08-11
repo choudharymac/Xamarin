@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView1" />
     <TextView
-        android:text="Android N"
+        android:text="Android Developers"
         android:gravity="center"
         android:textSize="25sp"
         android:textColor="#0d80bf"
@@ -24,7 +24,7 @@
         android:layout_below="@id/imageView1"
         android:id="@+id/textView1" />
     <TextView
-        android:text="I am new here!"
+        android:text="Be Together Not The Same"
         android:gravity="center"
         android:textColor="#0d80bf"
         android:textSize="15sp"

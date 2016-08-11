@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="40dp"
+    android:background="@drawable/back"
+    android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Email Address"
+        android:padding="10dp"
+        android:textColor="#a2a2a2"
+        android:drawableRight="@drawable/ic_email"
+        android:background="@drawable/edittext_style"
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp"
+        android:id="@+id/editText1" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:hint="Password"
+        android:padding="10dp"
+        android:textColor="#a2a2a2"
+        android:drawableRight="@drawable/ic_lock"
+        android:background="@drawable/edittext_style"
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/editText1"
+        android:id="@+id/editText2" />
+    <Button
+        android:text="Login into Your Account"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:background="#01c853"
+        android:layout_below="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1" />
+    <Button
+        android:text="Skip Login"
+        android:textColor="#fff"
+        android:background="#ed333f"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button1"
+        android:id="@+id/button2" />
+</RelativeLayout>
