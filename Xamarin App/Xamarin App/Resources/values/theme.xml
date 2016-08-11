@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="theme_custom_background">#fffafafa</color><color name="theme_material_light_background">#ffe8eaf6</color>
+  <style name="Theme.Custom" parent="@android:style/Theme.Material.Light">
+    <item name="android:colorBackground">@color/theme_custom_background</item>
+    <item name="android:windowBackground">?android:attr/colorBackground</item>
+    <item name="android:colorPrimary">#2593d0</item>
+  <item name="android:textColorPrimary">#fff</item><item name="android:colorPrimaryDark">#ff00b0ff</item>
+  </style>
+  <style name="Theme.Custom.Login" parent="@android:style/Theme.Material.Light">
+    <item name="android:colorBackground">@color/theme_material_light_background</item>
+    <item name="android:windowBackground">?android:attr/colorBackground</item>
+    <item name="android:colorPrimary">#2593d0</item>
+    <item name="android:textColorPrimary">#fffafafa</item>
+    <item name="android:colorPrimaryDark">#ff00b0ff</item>
+  </style>
+ </resources>
