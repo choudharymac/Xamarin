@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace Xamarin_App
 {
-    [Activity(Label = "View Book", Theme = "@style/Theme.Custom")]
+    [Activity(Label = "Your Order", Theme = "@style/Theme.Custom")]
     public class ViewBook : Activity
     {
         ImageView imageView;

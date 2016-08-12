@@ -219,16 +219,19 @@ namespace Xamarin_App
 			public const int grid_element = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int intro = 2130903045;
+			public const int Heartit = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int login = 2130903046;
+			public const int intro = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int Main = 2130903047;
+			public const int login = 2130903047;
 			
 			// aapt resource value: 0x7f030008
-			public const int newbook = 2130903048;
+			public const int Main = 2130903048;
+			
+			// aapt resource value: 0x7f030009
+			public const int newbook = 2130903049;
 			
 			static Layout()
 			{
