@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <style name="Theme.Custom" parent="@android:style/Theme.Material.Light">
-    <item name="android:colorBackground">@color/theme_custom_background</item>
-    <item name="android:windowBackground">?android:attr/colorBackground</item>
-    <item name="android:colorPrimary">#2593d0</item>
-    <item name="android:textColorPrimary">#fff</item>
-    <item name="android:colorPrimaryDark">#ff00b0ff</item>
-  </style>
+
   <color name="theme_custom_background">#fffafafa</color><color name="theme_material_light_background">#ffe8eaf6</color>
   <color name="dgreen">#019587</color>
   <color name="yellow">#fdc006</color>
@@ -14,7 +8,13 @@
   <color name="darkgey">#5f7c8a</color>
   <color name="purple">#8112f2</color>
   <color name="darkpink">#f212d5</color>
-  
+  <style name="Theme.Custom" parent="@android:style/Theme.Material.Light">
+    <item name="android:colorBackground">@color/theme_custom_background</item>
+    <item name="android:windowBackground">?android:attr/colorBackground</item>
+    <item name="android:colorPrimary">#2593d0</item>
+    <item name="android:textColorPrimary">#fff</item>
+    <item name="android:colorPrimaryDark">#ff00b0ff</item>
+  </style>
   <style name="Theme.Custom.Login" parent="@android:style/Theme.Material.Light">
     <item name="android:colorBackground">@color/theme_material_light_background</item>
     <item name="android:windowBackground">?android:attr/colorBackground</item>
