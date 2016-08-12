@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace Xamarin_App
 {
-    [Activity(Label = "ReadFeed")]
+    [Activity(Label = "Latest Editions", Theme = "@style/Theme.Custom")]
     public class NewBook : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -20,7 +20,7 @@ namespace Xamarin_App
             base.OnCreate(savedInstanceState);
 
             // Create your application here
-
+            SetContentView(Resource.Layout.newbook);
         }
     }
 }

@@ -30,17 +30,17 @@ namespace Xamarin_App
             loginButton.Click += (object sender, EventArgs e) =>
             {
                 if(String.IsNullOrEmpty(tbun.Text))
-                    Toast.MakeText(this, "Enter Details or Press Skip "+ tbun.Text,ToastLength.Long).Show();
+                    Toast.MakeText(this, "Enter Details or Press Skip "+ tbun.Text,ToastLength.Short).Show();
                 else
                 {
-                    Toast.MakeText(this, "Welcome " + tbun.Text, ToastLength.Long).Show();
+                    Toast.MakeText(this, "Welcome " + tbun.Text, ToastLength.Short).Show();
                     var intent = new Intent(this, typeof(Dashboard));
                     StartActivity(intent); }
             };
             Button skipButton = FindViewById<Button>(Resource.Id.button2);
             skipButton.Click += (object sender, EventArgs e) =>
             {
-                Toast.MakeText(this, "Welcome", ToastLength.Long).Show();
+                Toast.MakeText(this, "Welcome", ToastLength.Short).Show();
                 var intent = new Intent(this, typeof(Dashboard));
                 StartActivity(intent);
             };

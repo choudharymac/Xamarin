@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:padding="20dp"
+    android:id="@+id/image1"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1" />
+  <TextView
+        android:text="Book Title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView1"
+        android:id="@+id/textView2" />
+    <TextView
+        android:text="Author"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:id="@+id/textView1" />
+    
+    <Button
+        android:text="Buy"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:background="#2095f2"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:id="@+id/button1" />
+</RelativeLayout>
