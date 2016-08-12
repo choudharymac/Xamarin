@@ -5,8 +5,8 @@ In this project basically focuses on the multi screen as one of the important fe
 1. Splash Screen
 2. Login Screen
 3.Intro Screen
-4.Feed List
-5. Expansion of Feed List
+4.Book List
+5. Camera Open
 # Technology Used
 Tool Used  : Xamarin 
 IDE : Visual Studio 15
