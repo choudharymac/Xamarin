@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BitmapHelpers.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Hearit.cs" />
     <Compile Include="BuyBook.cs" />
     <Compile Include="Dashboard.cs" />

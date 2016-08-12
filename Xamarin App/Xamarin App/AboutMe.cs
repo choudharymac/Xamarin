@@ -12,13 +12,15 @@ using Android.Widget;
 
 namespace Xamarin_App
 {
-    [Activity(Label = "ViewFeed")]
+    [Activity(Label = "About Me",Theme = "@style/Theme.Custom")]
     public class AboutMe : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
+            SetContentView(Resource.Layout.intro);
+            Button loginButton = FindViewById<Button>(Resource.Id.button1);
+            loginButton.Visibility = ViewStates.Invisible;
             // Create your application here
         }
     }

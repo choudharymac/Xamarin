@@ -80,7 +80,7 @@ namespace Xamarin_App
             bt.Click += (object sender, EventArgs e) =>
             {
                 int pos = (int)(((Button)sender).GetTag(Resource.Id.button1));
-              
+                Class1.Expired = pos+1;
                 Toast.MakeText(c,"You have booked "+ yourArray[position], ToastLength.Short).Show();
                 c.Finish();
             };
