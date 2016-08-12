@@ -44,11 +44,29 @@ namespace Xamarin_App
 		public partial class Color
 		{
 			
+			// aapt resource value: 0x7f050004
+			public const int darkblue = 2131034116;
+			
+			// aapt resource value: 0x7f050005
+			public const int darkgey = 2131034117;
+			
+			// aapt resource value: 0x7f050007
+			public const int darkpink = 2131034119;
+			
+			// aapt resource value: 0x7f050002
+			public const int dgreen = 2131034114;
+			
+			// aapt resource value: 0x7f050006
+			public const int purple = 2131034118;
+			
 			// aapt resource value: 0x7f050000
 			public const int theme_custom_background = 2131034112;
 			
 			// aapt resource value: 0x7f050001
 			public const int theme_material_light_background = 2131034113;
+			
+			// aapt resource value: 0x7f050003
+			public const int yellow = 2131034115;
 			
 			static Color()
 			{
@@ -73,19 +91,52 @@ namespace Xamarin_App
 			public const int edittext_style = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int ic_email = 2130837507;
+			public const int ic_about = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int ic_lock = 2130837508;
+			public const int ic_book = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int ic_profile = 2130837509;
+			public const int ic_book1 = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int ic_splach = 2130837510;
+			public const int ic_book2 = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int Icon = 2130837511;
+			public const int ic_book3 = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int ic_book4 = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int ic_book5 = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int ic_camera = 2130837514;
+			
+			// aapt resource value: 0x7f02000b
+			public const int ic_email = 2130837515;
+			
+			// aapt resource value: 0x7f02000c
+			public const int ic_lock = 2130837516;
+			
+			// aapt resource value: 0x7f02000d
+			public const int ic_new = 2130837517;
+			
+			// aapt resource value: 0x7f02000e
+			public const int ic_order = 2130837518;
+			
+			// aapt resource value: 0x7f02000f
+			public const int ic_profile = 2130837519;
+			
+			// aapt resource value: 0x7f020010
+			public const int ic_record = 2130837520;
+			
+			// aapt resource value: 0x7f020011
+			public const int ic_splach = 2130837521;
+			
+			// aapt resource value: 0x7f020012
+			public const int Icon = 2130837522;
 			
 			static Drawable()
 			{
@@ -100,29 +151,32 @@ namespace Xamarin_App
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f070004
-			public const int button1 = 2131165188;
-			
-			// aapt resource value: 0x7f070007
-			public const int button2 = 2131165191;
-			
 			// aapt resource value: 0x7f070005
-			public const int editText1 = 2131165189;
+			public const int button1 = 2131165189;
+			
+			// aapt resource value: 0x7f070008
+			public const int button2 = 2131165192;
 			
 			// aapt resource value: 0x7f070006
-			public const int editText2 = 2131165190;
+			public const int editText1 = 2131165190;
+			
+			// aapt resource value: 0x7f070007
+			public const int editText2 = 2131165191;
 			
 			// aapt resource value: 0x7f070000
 			public const int gridview = 2131165184;
 			
 			// aapt resource value: 0x7f070001
-			public const int imageView1 = 2131165185;
+			public const int image1 = 2131165185;
 			
 			// aapt resource value: 0x7f070002
-			public const int textView1 = 2131165186;
+			public const int imageView1 = 2131165186;
 			
 			// aapt resource value: 0x7f070003
-			public const int textView2 = 2131165187;
+			public const int textView1 = 2131165187;
+			
+			// aapt resource value: 0x7f070004
+			public const int textView2 = 2131165188;
 			
 			static Id()
 			{
