@@ -25,15 +25,15 @@ namespace Xamarin_App
             // Get our button from the layout resource,
             // and attach an event to it
             Button loginButton = FindViewById<Button>(Resource.Id.button1);
-            var tbun = FindViewById<EditText>(Resource.Id.editText1).Text;
-            var pbun = FindViewById<EditText>(Resource.Id.editText2).Text;
+            EditText tbun = FindViewById<EditText>(Resource.Id.editText1);
+            EditText pbun = FindViewById<EditText>(Resource.Id.editText2);
             loginButton.Click += (object sender, EventArgs e) =>
             {
-                if (tbun.Equals("")||pbun.Equals(""))
-                    Toast.MakeText(this, "Enter Details or Press Skip ", ToastLength.Long).Show();
+                if(String.IsNullOrEmpty(tbun.Text))
+                    Toast.MakeText(this, "Enter Details or Press Skip "+ tbun.Text,ToastLength.Long).Show();
                 else
                 {
-                    Toast.MakeText(this, "Welcome " + tbun, ToastLength.Long).Show();
+                    Toast.MakeText(this, "Welcome " + tbun.Text, ToastLength.Long).Show();
                     var intent = new Intent(this, typeof(Dashboard));
                     StartActivity(intent); }
             };
